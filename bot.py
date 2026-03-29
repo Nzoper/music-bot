@@ -20,7 +20,8 @@ FFMPEG_OPTIONS = {
 YDL_OPTIONS = {
     'format': 'bestaudio/best',
     'noplaylist': True,
-    'quiet': True
+    'quiet': True,
+    'cookiefile': 'www.youtube.com_cookies.txt'
 }
 
 @bot.event
