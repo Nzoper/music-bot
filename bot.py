@@ -21,7 +21,8 @@ YDL_OPTIONS = {
     'format': 'bestaudio/best',
     'noplaylist': True,
     'quiet': True,
-    'cookiefile': 'www.youtube.com_cookies.txt'
+    'cookiefile': 'www.youtube.com_cookies.txt',
+    'extractor_args': {'youtube': {'skip': ['dash', 'hls']}},
 }
 
 @bot.event
